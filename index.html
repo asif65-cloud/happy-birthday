@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise 🎂</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700,800" rel="stylesheet">
+</head>
+<body>
+    <!-- Lamp Login Page -->
+    <div id="lampPage" class="page active">
+        <div class="lamp-login-container">
+            <div class="lamp-login-content">
+                <svg
+                    id="lamp"
+                    class="lamp"
+                    viewBox="0 0 333 484"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <g class="lamp__shade shade">
+                        <ellipse class="shade__opening" cx="165" cy="220" rx="130" ry="20" />
+                        <ellipse class="shade__opening-shade" cx="165" cy="220" rx="130" ry="20" fill="url(#opening-shade)" />
+                    </g>
+                    <g class="lamp__base base">
+                        <path class="base__side" d="M165 464c44.183 0 80-8.954 80-20v-14h-22.869c-14.519-3.703-34.752-6-57.131-6-22.379 0-42.612 2.297-57.131 6H85v14c0 11.046 35.817 20 80 20z" />
+                        <path d="M165 464c44.183 0 80-8.954 80-20v-14h-22.869c-14.519-3.703-34.752-6-57.131-6-22.379 0-42.612 2.297-57.131 6H85v14c0 11.046 35.817 20 80 20z" fill="url(#side-shading)" />
+                        <ellipse class="base__top" cx="165" cy="430" rx="80" ry="20" />
+                        <ellipse cx="165" cy="430" rx="80" ry="20" fill="url(#base-shading)" />
+                    </g>
+                    <g class="lamp__post post">
+                        <path class="post__body" d="M180 142h-30v286c0 3.866 6.716 7 15 7 8.284 0 15-3.134 15-7V142z" />
+                        <path d="M180 142h-30v286c0 3.866 6.716 7 15 7 8.284 0 15-3.134 15-7V142z" fill="url(#post-shading)" />
+                    </g>
+                    <g class="lamp__cords cords">
+                        <line 
+                            id="cord"
+                            class="cord cord--dummy" 
+                            x1="124" 
+                            y2="348" 
+                            x2="124" 
+                            y1="190" 
+                            stroke-width="6" 
+                            stroke-linecap="round" 
+                        />
+                    </g>
+                    <path class="lamp__light" d="M290.5 193H39L0 463.5c0 11.046 75.478 20 165.5 20s167-11.954 167-23l-42-267.5z" fill="url(#light)" />
+                    <g class="lamp__top top">
+                        <path class="top__body" fill-rule="evenodd" clip-rule="evenodd" d="M164.859 0c55.229 0 100 8.954 100 20l29.859 199.06C291.529 208.451 234.609 200 164.859 200S38.189 208.451 35 219.06L64.859 20c0-11.046 44.772-20 100-20z" />
+                        <path class="top__shading" fill-rule="evenodd" clip-rule="evenodd" d="M164.859 0c55.229 0 100 8.954 100 20l29.859 199.06C291.529 208.451 234.609 200 164.859 200S38.189 208.451 35 219.06L64.859 20c0-11.046 44.772-20 100-20z" fill="url(#top-shading)" />
+                    </g>
+                    <g class="lamp__face face">
+                        <g class="lamp__mouth">
+                            <path d="M165 178c19.882 0 36-16.118 36-36h-72c0 19.882 16.118 36 36 36z" fill="#141414" />
+                            <clipPath class="lamp__feature" id="mouth">
+                                <path d="M165 178c19.882 0 36-16.118 36-36h-72c0 19.882 16.118 36 36 36z" fill="#141414" />
+                            </clipPath>
+                            <g clip-path="url(#mouth)">
+                                <circle class="lamp__tongue" cx="179.4" cy="172.6" r="18" />
+                            </g>
+                        </g>
+                        <g class="lamp__eyes">
+                            <path class="lamp__eye lamp__stroke" d="M115 135c0-5.523-5.82-10-13-10s-13 4.477-13 10" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="lamp__eye lamp__stroke" d="M241 135c0-5.523-5.82-10-13-10s-13 4.477-13 10" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                    </g>
+                    <defs>
+                        <linearGradient id="opening-shade" x1="35" y1="220" x2="295" y2="220" gradientUnits="userSpaceOnUse">
+                            <stop />
+                            <stop offset="1" stop-color="var(--shade)" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="base-shading" x1="85" y1="444" x2="245" y2="444" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="var(--b-1)" />
+                            <stop offset="0.8" stop-color="var(--b-2)" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="side-shading" x1="119" y1="430" x2="245" y2="430" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="var(--b-3)" />
+                            <stop offset="1" stop-color="var(--b-4)" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="post-shading" x1="150" y1="288" x2="180" y2="288" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="var(--b-1)" />
+                            <stop offset="1" stop-color="var(--b-2)" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="light" x1="165.5" y1="218.5" x2="165.5" y2="483.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="var(--l-1)" stop-opacity=".2" />
+                            <stop offset="1" stop-color="var(--l-2)" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="top-shading" x1="56" y1="110" x2="295" y2="110" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="var(--t-1)" stop-opacity=".8" />
+                            <stop offset="1" stop-color="var(--t-2)" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <circle 
+                        id="lampHit"
+                        class="lamp__hit" 
+                        cx="124" 
+                        cy="347" 
+                        r="66" 
+                        fill="#C4C4C4" 
+                        fill-opacity=".1"
+                    />
+                </svg>
+
+                <div id="loginForm" class="login-form">
+                    <h2>Welcome Shehzaadi</h2>
+                    <form id="loginFormElement">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="DILKASH" placeholder="Enter your username" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="DILKASH" placeholder="Enter your password" required />
+                        </div>
+                        <button type="submit" class="login-btn">Login</button>
+                        <div class="form-footer">
+                            <a href="#" class="forgot-link">Forgot Password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Birthday Page -->
+    <div id="birthdayPage" class="page">
+        <canvas id="canvas"></canvas>
+        
+        <!-- SVG clipPath for heart mask -->
+        <svg width="0" height="0" style="position:absolute;">
+            <defs>
+                <clipPath id="heartClip" clipPathUnits="objectBoundingBox">
+                    <path d="M0.5 0.24 C0.5 0.05, 0.2 0, 0.1 0.18 C-0.05 0.45, 0.25 0.75, 0.5 0.95 C0.75 0.75, 1.05 0.45, 0.9 0.18 C0.8 0, 0.5 0.05, 0.5 0.24 Z" />
+                </clipPath>
+            </defs>
+        </svg>
+
+        <!-- Heart-shaped image container -->
+        <div class="heart-container">
+            <div class="heart-shape">
+                <img id="heartImage" class="heart-img" src="dilk.jpeg" alt="Heart Photo" />
+            </div>
+        </div>
+        
+        <div id="pleaseClick">
+            <br> Please click here<br><span>&#9759;</span>
+        </div>
+        
+        <div id="wishes">
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+            <p id="p4"></p>
+            <p class="control">
+                <label for="inputSpeed"></label>
+                <br>
+                <input type="range" id="inputSpeed" min="0.1" max="2" step="0.1" value="0.5">
+            </p>
+        </div>
+
+        <!-- Quiz Button -->
+        <button id="quizBtn" class="quiz-nav-btn" style="display: none;">
+            💕 Take Our Love Quiz 💕
+        </button>
+    </div>
+
+    <!-- Quiz Page -->
+    <div id="quizPage" class="page">
+        <canvas id="quizCanvas"></canvas>
+        
+        <div class="quiz-container">
+            <div class="quiz-card">
+                <h1 class="quiz-title">💖 How Well Do You Know Us? 💖</h1>
+                
+                <div id="quizContent">
+                    <div class="question-container">
+                        <div class="question-number">Question <span id="currentQuestion">1</span> of <span id="totalQuestions">5</span></div>
+                        <h2 class="question-text" id="questionText"></h2>
+                        
+                        <div class="options-container" id="optionsContainer">
+                            <!-- Options will be inserted here -->
+                        </div>
+                        
+                        <div class="feedback-message" id="feedbackMessage"></div>
+                    </div>
+                </div>
+                
+                <div id="quizResults" style="display: none;">
+                    <div class="results-animation">
+                        <div class="hearts-rain">
+                            <span>💖</span><span>💕</span><span>💗</span><span>💝</span><span>💘</span>
+                            <span>💖</span><span>💕</span><span>💗</span><span>💝</span><span>💘</span>
+                        </div>
+                        <h2 class="results-title">Quiz Complete!</h2>
+                        <div class="score-display">
+                            <div class="score-number">
+                                <span id="finalScore">0</span>/<span id="finalTotal">5</span>
+                            </div>
+                            <p class="score-message" id="scoreMessage"></p>
+                        </div>
+                        <button id="continueToAppreciation" class="celebration-btn">
+                            Continue to Your Special Message 💝
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Appreciation Page -->
+    <div id="appreciationPage" class="page">
+        <canvas id="fireworksCanvas"></canvas>
+        
+        <div class="appreciation-container">
+            <div class="appreciation-card">
+                <h1 class="appreciation-title">For My Dearest Dilkash Babu 💖</h1>
+                
+                <div class="message-section">
+                    <div class="message-box fade-in">
+                        <div class="icon">✨</div>
+                        <h3>You Are Amazing</h3>
+                        <p>Your smile lights up every room, your kindness touches every heart. You make the world a better place just by being in it.</p>
+                    </div>
+                    
+                    <div class="message-box fade-in" style="animation-delay: 0.3s;">
+                        <div class="icon">🌟</div>
+                        <h3>I Appreciate You</h3>
+                        <p>Thank you for being the incredible person you are. Your strength, compassion, and beautiful spirit inspire me every single day.</p>
+                    </div>
+                    
+                    <div class="message-box fade-in" style="animation-delay: 0.6s;">
+                        <div class="icon">🎯</div>
+                        <h3>Dream Big</h3>
+                        <p>May this year bring you closer to all your dreams. Chase your goals fearlessly, and know that I believe in you completely!</p>
+                    </div>
+                    
+                    <div class="message-box fade-in" style="animation-delay: 0.9s;">
+                        <div class="icon">💫</div>
+                        <h3>The Future Awaits</h3>
+                        <p>Here's to new adventures, beautiful memories, and endless possibilities. Your future is as bright as your smile!</p>
+                    </div>
+                </div>
+                
+                <div class="floating-wishes">
+                    <div class="wish-bubble">Success</div>
+                    <div class="wish-bubble">Happiness</div>
+                    <div class="wish-bubble">Love</div>
+                    <div class="wish-bubble">Dreams</div>
+                    <div class="wish-bubble">Joy</div>
+                    <div class="wish-bubble">Peace</div>
+                </div>
+                
+                <button id="spinWheelBtn" class="celebration-btn">🎡 Spin the Love Wheel 🎡</button>
+                <button id="backToStart" class="celebration-btn" style="margin-top: 1rem;">🎉 Celebrate Again!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spin Wheel Page -->
+    <div id="spinWheelPage" class="page">
+        <canvas id="wheelCanvas"></canvas>
+        
+        <div class="wheel-container">
+            <div class="wheel-card">
+                <h1 class="wheel-title">💝 Spin the Love Wheel 💝</h1>
+                <p class="wheel-subtitle">Let's see what surprise awaits you, my love!</p>
+                
+                <div class="wheel-wrapper">
+                    <div class="wheel-pointer">▼</div>
+                    <canvas id="wheelPrize" width="400" height="400"></canvas>
+                    <button id="spinButton" class="spin-button">SPIN! 🎯</button>
+                </div>
+                
+                <div id="prizeResult" class="prize-result" style="display: none;">
+                    <div class="prize-animation">
+                        <div class="prize-emoji" id="prizeEmoji"></div>
+                        <h2 class="prize-title" id="prizeTitle"></h2>
+                        <p class="prize-message" id="prizeMessage"></p>
+                        <div class="prize-actions">
+                            <button id="spinAgain" class="wheel-action-btn">Spin Again! 🔄</button>
+                            <button id="backToAppreciation" class="wheel-action-btn">Back to Messages 💌</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
